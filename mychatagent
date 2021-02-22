@@ -11,16 +11,17 @@
 body{
 	font-family:Verdana, Geneva, sans-serif;
 	font-size:18px;
-	background-color:#CCC;
+	background-color:#00008b;
 }
 
 .float{
 	position:fixed;
 	width:150px;
 	height:60px;
+	bottom:50px;
 	right:40px;
 	background-color:#0C9;
-	color:#00008b;
+	color:#FFF;
 	text-align:center;
 	box-shadow: 2px 2px 3px #999;
 }
