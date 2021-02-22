@@ -6,40 +6,23 @@
   <!-- End Default Content REMOVE THIS -->
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"/>
   
-  <!-- CUstom CSS-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
-  <style type='text/css'>
-  *{padding:0;margin:0;}
-  .card-image {
-  border-radius: 50%;
-  overflow: hidden;
+  <style>
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100px;
+  height: 150px;
 }
 
-body{
-	font-family:Verdana, Geneva, sans-serif;
-	font-size:18px;
-	background-color:#FFF;
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-.float{
-	position:fixed;
-	width:150px;
-	height:60px;
-	bottom:50px;
-	right:40px;
-	background-color:#00008b;
-	color:#FFF;
-	text-align:center;
-	box-shadow: 2px 2px 3px #999;
-	cursor: pointer;
+.container {
+  padding: 2px 16px;
 }
+</style>
 
-.my-float{
-	margin-top:22px;
-}
-
-  </style>
-  <!-- Custom css end -->
   
   <style type='text/css'>
     .embeddedServiceHelpButton .helpButton .uiButton {
@@ -158,19 +141,19 @@ body{
 		embedded_svc.bootstrapEmbeddedService('https://kcp--GBQAbox.my.salesforce.com');
 	}
 </script>
-<button onclick="bootstrapChat()" class="float" >
-	Click me to show the Embedded Chat experience.
-</button>
 
 <div class="card">
-                <div class="card-image">
-                    <img src="https://via.placeholder.com/50x50" alt="Foto do Fundador da Empresa,Marcelo Borges Fagundes" >
-                </div>
-                <div class="card-content">
-                    <span class="card-title">Marcelo Borges Fagundes</span>
-                    <p>Fundador da Empresa</p>
-                </div>
-            </div>
+  <img src="img_avatar.png" alt="Avatar" style="width:100%; border-radius: 75%;">
+  <div class="container">
+    <button onclick="bootstrapChat()"  >
+	Let's Chat
+    </button>
+  </div>
+</div>
+
+
+
+
 
 
 
