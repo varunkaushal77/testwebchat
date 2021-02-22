@@ -143,9 +143,9 @@
 </script>
 
 <div class="card">
-  <img src="https://kcp--gbqabox--c.cs124.visual.force.com/resource/1612893459000/Salesperson?" alt="Avatar" style="width:100%; border-radius: 75%;">
+  <img src="https://kcp--gbqabox--c.cs124.visual.force.com/resource/1612893459000/Salesperson?" alt="Avatar" style="width:50%; border-radius: 75%;">
   <div class="container">
-    <button onclick="bootstrapChat()"  >
+    <button onclick="bootstrapChat()" style="background-color:#00008b; font-color:white;"  >
 	Let's Chat
     </button>
   </div>
