@@ -11,7 +11,7 @@
 body{
 	font-family:Verdana, Geneva, sans-serif;
 	font-size:18px;
-	background-color:#00008b;
+	background-color:#FFF;
 }
 
 .float{
@@ -20,7 +20,7 @@ body{
 	height:60px;
 	bottom:50px;
 	right:40px;
-	background-color:#0C9;
+	background-color:#00008b;
 	color:#FFF;
 	text-align:center;
 	box-shadow: 2px 2px 3px #999;
