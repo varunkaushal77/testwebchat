@@ -1,10 +1,37 @@
 <html> 
 
 <!-- Begin Default Content REMOVE THIS -->
-  <h1>Conratulations</h1>
+  <h1>Congratulations</h1>
   This is your new Page
   <!-- End Default Content REMOVE THIS -->
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"/>
+  <style type='text/css'>
+  *{padding:0;margin:0;}
+
+body{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:18px;
+	background-color:#CCC;
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#0C9;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+.my-float{
+	margin-top:22px;
+}
+
+  </style>
   <style type='text/css'>
     .embeddedServiceHelpButton .helpButton .uiButton {
         background-color: #005290;
@@ -125,5 +152,13 @@
 <button onclick="bootstrapChat()">
 	Click me to show the Embedded Chat experience.
 </button>
+
+<!-- Code begins here -->
+
+<a href="#" class="float">
+<i class="fa fa-plus my-float"></i>
+</a>
+
+
 
 </html>
