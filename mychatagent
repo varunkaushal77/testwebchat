@@ -5,8 +5,15 @@
   This is your new Page
   <!-- End Default Content REMOVE THIS -->
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"/>
+  
+  <!-- CUstom CSS-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
   <style type='text/css'>
   *{padding:0;margin:0;}
+  .card-image {
+  border-radius: 50%;
+  overflow: hidden;
+}
 
 body{
 	font-family:Verdana, Geneva, sans-serif;
@@ -32,6 +39,8 @@ body{
 }
 
   </style>
+  <!-- Custom css end -->
+  
   <style type='text/css'>
     .embeddedServiceHelpButton .helpButton .uiButton {
         background-color: #005290;
@@ -153,6 +162,15 @@ body{
 	Click me to show the Embedded Chat experience.
 </button>
 
+<div class="card">
+                <div class="card-image">
+                    <img src="https://via.placeholder.com/50x50" alt="Foto do Fundador da Empresa,Marcelo Borges Fagundes" >
+                </div>
+                <div class="card-content">
+                    <span class="card-title">Marcelo Borges Fagundes</span>
+                    <p>Fundador da Empresa</p>
+                </div>
+            </div>
 
 
 
