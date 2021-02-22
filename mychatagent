@@ -143,7 +143,7 @@
 </script>
 
 <div class="card">
-  <img src="https://kcp--gbqabox--c.cs124.visual.force.com/resource/1613158071000/salespersonavatar?" alt="Avatar" style="width:100%; border-radius: 75%;">
+  <img src="https://kcp--gbqabox--c.cs124.visual.force.com/resource/1612893459000/Salesperson?" alt="Avatar" style="width:100%; border-radius: 75%;">
   <div class="container">
     <button onclick="bootstrapChat()"  >
 	Let's Chat
