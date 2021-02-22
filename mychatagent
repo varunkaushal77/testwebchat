@@ -26,8 +26,8 @@
         <p id="snapins_bodytext">How can we help you?</p>
     </div>
     <div class="embeddedServiceInvitationFooter" aria-describedby="snapins_bodytext">
-        <button type="button" class="embeddedServiceActionButton" id="acceptInvite">Start Chat</button>
         <button type="button" class="embeddedServiceActionButton" id="rejectInvite">Close</button>
+        <button type="button" class="embeddedServiceActionButton" id="acceptInvite">Start Chat</button>
     </div>
 </div>
 
@@ -63,7 +63,7 @@
 <script type='text/javascript' src='https://service.force.com/embeddedservice/5.0/esw.min.js'></script>
 <script type='text/javascript'>
     var initESW = function(gslbBaseURL) {
-        embedded_svc.settings.displayHelpButton = true; //Or false
+        embedded_svc.settings.displayHelpButton = false; //Or false
         embedded_svc.settings.language = ''; //For example, enter 'en' or 'en-US'
         
         embedded_svc.settings.avatarImgURL = 'https://kcp--gbqabox--c.cs124.visual.force.com/resource/1613158071000/salespersonavatar';
@@ -72,7 +72,6 @@
 
         //embedded_svc.settings.defaultMinimizedText = '...'; //(Defaults to Chat with an Expert)
         //embedded_svc.settings.disabledMinimizedText = '...'; //(Defaults to Agent Offline)
-        
 
         //embedded_svc.settings.loadingText = ''; //(Defaults to Loading)
         //embedded_svc.settings.storageDomain = 'yourdomain.com'; //(Sets the domain for your deployment so that visitors can navigate subdomains during a chat session)
@@ -117,5 +116,14 @@
         initESW('https://service.force.com');
     }
 </script>
+
+<script type='text/javascript'>
+	function bootstrapChat() {
+		embedded_svc.bootstrapEmbeddedService('https://kcp--GBQAbox.my.salesforce.com');
+	}
+</script>
+<button onclick="bootstrapChat()">
+	Click me to show the Embedded Chat experience.
+</button>
 
 </html>
