@@ -149,7 +149,7 @@ body{
 		embedded_svc.bootstrapEmbeddedService('https://kcp--GBQAbox.my.salesforce.com');
 	}
 </script>
-<button onclick="bootstrapChat()">
+<button onclick="bootstrapChat()" class="float" >
 	Click me to show the Embedded Chat experience.
 </button>
 
